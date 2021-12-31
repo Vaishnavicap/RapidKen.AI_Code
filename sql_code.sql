@@ -5,4 +5,4 @@ SELECT e.EmployeeName,
 FROM employees e
 WHERE Salary >
     (SELECT avg(Salary)
-     FROM employees
+     FROM employees)
